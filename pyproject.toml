@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bpe-tokenizer-reimplementation"
+version = "0.1.0"
+description = "Educational byte-pair encoding tokenizer reimplementation inspired by minbpe."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["regex>=2023.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
