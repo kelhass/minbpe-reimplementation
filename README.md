@@ -126,6 +126,7 @@ The original exploratory files also reference `tiktoken` for comparison with Ope
 This project builds on ideas from Andrej Karpathy's `minbpe` project and tokenizer lecture materials.
 
 Original project: https://github.com/karpathy/minbpe
+
 Video: https://www.youtube.com/watch?v=zduSFxRajkE&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=9
 
 The files in `original/` preserve my original learning versions. The code in `src/` is a cleaned and organized version prepared for portfolio presentation.
